@@ -31,6 +31,8 @@ while(i < 10):
         
         # the user wins if they guess the right number
         print("You won - wooohooo :)")
+        number_Of_Guesses = i
+        print("It took you " + str(number_Of_Guesses) + " try(- y and add ies) to guess the number gj, well done, exceptional work")
         i = 11
         
     if(i == 10):
